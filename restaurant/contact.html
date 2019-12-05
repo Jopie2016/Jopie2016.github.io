@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head> 
+        <title>Contact Us</title>	
+    </head> 
+    
+    <body>
+        <header>
+            <h1>Contact Us</h1>
+        </header>
+
+        <nav>
+            <p>
+                <hr />
+                <a href="index.html">Home</a>
+                <a href="menu.html"> Menu</a>
+                <a href="contact.html"> Contact Us</a>
+                <hr />
+            </p>
+        </nav>
+
+        <section>
+            <form action="contact.html" method="POST">
+                <label for="name">Name:</label><br />
+                <input type="text" id="name" name="Name"> <br />
+                <label for="email">Email:</label><br />
+                <input type="email" id="email" name="Email"> <br />
+                <label for="phone">Phone Number:</label><br />
+                <input type="text" id="phone" name="phone"> <br />
+                <label for="contact">Reason for Inquiry:</label><br />
+                <select id="contact" name="contact">
+                    <option value="default" selected>--Select One--</option>
+                    <option value="morning">Catering</option>
+                    <option value="afternoon">Private Party</option>
+                    <option value="evening">Feedback</option>
+                </select> <br />
+                <label for="info">Additional Information</label><br />
+                <textarea id="info" name="info"></textarea>
+                <fieldset>
+                    <legend>Have you been here</legend><br />
+                    <input type="radio" id="choice1" name="questionnaire" value="yes">
+                    <label for="choice1">Yes</label><br />
+                    <input type="radio" id="choice2" name="questionnaire" value="no">
+                    <label for="choice2">No</label><br />
+                </fieldset>
+                <fieldset>
+                    <legend>Best days to contact you</legend><br />
+                    <input type="checkbox" id="M" name="M" value="M">
+                    <label for="M">M</label><br />
+                    <input type="checkbox" id="T" name="T" value="T">
+                    <label for="T">T</label><br />
+                    <input type="checkbox" id="W" name="W" value="W">
+                    <label for="W">W</label><br />
+                    <input type="checkbox" id="T" name="T" value="T">
+                    <label for="T">T</label><br />
+                    <input type="checkbox" id="F" name="F" value="F">
+                    <label for="F">F</label><br />   
+                </fieldset>
+                <input type="submit" />
+            </form>
+        </section>
+
+        <footer>
+            <p>
+                <hr />
+                5704 Clarendon Rd, Brooklyn, 11203<br />
+                555-555-5555
+                <hr />
+            </p>
+        </footer>
+    </body> 
+</html>
