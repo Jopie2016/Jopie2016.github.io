@@ -66,6 +66,7 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #f2eded;
     color: #546a7b;
+    margin-bottom: 30px;
 }
 
 textarea {
@@ -86,11 +87,9 @@ textarea {
 
 article img {
     float: left;
-    border: 1px solid red!important;
 }
 
 .right-content {
     width:50%;
     float: left;
-    border:1px solid blue;
 }

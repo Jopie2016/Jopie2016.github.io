@@ -1,0 +1,45 @@
+body {
+    background-color: #AA7939;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.jumbotron-fluid {
+    background-color: #AF9F89;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.navbar {
+    margin-bottom: 30px;
+}
+
+.exclusivePic {
+    border: solid white;
+    float: left;
+}
+
+a:hover {
+    color: tomato;
+}
+
+footer {
+    background-color: #AF9F89;
+    color: black;
+    height: 125px;
+    text-align: center;
+    padding: 30px 10px 20px 10px;
+    margin-top: 20px;
+}
+
+#contactSection {
+    align-content: center;
+}
+
+input[type=submit]:hover {
+    background-color: #A55E00;
+    color: #black;
+}
+
+th {
+    font-size: 2em;
+}
