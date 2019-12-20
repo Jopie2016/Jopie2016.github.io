@@ -9,7 +9,7 @@
         <div class="container">
             <h1>Click to Display Even Numbers</h1>
 
-            <form name="numberFun" onclick="return validateItems();" onreset="resetForm();" class="form-inline">
+            <form name="numberFun" onsubmit="return displayEvents();" onreset="resetForm();" class="form-inline">
                 <div class="form-group"> 
                     <label for="num1">Starting Number</label>
                     <input type="number" class="form-control" id="num1">
@@ -24,7 +24,7 @@
                 <br/>
                 <div class="form-group">
                     <label for="Step">Step</label>
-                    <input type="number" class="form-control" id="Step">
+                    <input type="number" class="form-control" id="step">
                 </div>
                 <br/>
                 <br/>

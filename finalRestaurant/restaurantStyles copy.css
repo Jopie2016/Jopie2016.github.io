@@ -1,0 +1,73 @@
+body {
+    background-color: #AA7939;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.jumbotron-fluid {
+    background-color: #AF9F89;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.navbar {
+    margin-bottom: 30px;
+}
+
+.exclusivePic {
+    border: solid white;
+    float: left;
+}
+
+a:hover {
+    color: rgb(183, 255, 68);
+}
+
+footer {
+    background-color: #AF9F89;
+    color: black;
+    height: 125px;
+    text-align: center;
+    padding: 30px 10px 20px 10px;
+    margin-top: 20px;
+}
+
+#contactSection {
+    align-content: center;
+}
+
+input[type=submit]:hover {
+    background-color: #A55E00;
+    color: #black;
+}
+
+table, th, td {
+    border: 1px solid #0d1f2d;
+    border-collapse: collapse;
+    padding: 5px 10px;
+}
+
+table {
+    width: 90%;
+    margin: auto;
+}
+
+tr {
+    height: 30px;
+}
+
+th {
+    background-color: #546a7b;
+    color: #f2eded;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #e4c3ad;
+}
+
+#slideshow1 {
+    margin-bottom: 30px;
+}
+
+#pic1 {
+    margin-bottom: 30px;
+}
