@@ -2,10 +2,10 @@
 function submitForm() {
     let name = document.getElementById("name")
     let form = document.getElementById("myForm")
-    let errorElement = document.getElementById("error")
+    // let errorElement = document.getElementById("error")
 
-    if(name.value === "" || name.value == null){
-            messages.push("Enter your name Nowwwwwwwwww")
+    if(name == "" || !isNaN(name)){
+            alert("Enter your name Nowwwwwwwwww")
             document.getElementById("name").style.borderColor = "red";
         }
 
@@ -22,5 +22,5 @@ function submitForm() {
     console.log("hello")
 
     return false
-})
 }
+

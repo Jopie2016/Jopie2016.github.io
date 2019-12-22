@@ -6,23 +6,29 @@ function playGame (){
     let rollCount = 0;
     let rollAmountWon = 0;
     let highest = startingBet;
-    
     let money = startingBet;
-    while (money > 0) {
-    let num = rollDice();
-    if (num == 7) {
-      money += 4;
-      rollCount += 1;
-        if (money >= highest) {
-          rollAmountWon = rollCount;
-          highest = money;
-        }
-    }else {
-      money -= 1;
-      rollCount += 1;
+
+    if (money == "" || isNaN(money)) {
+      alert("Please enter valid numbers.");
     }
-  }
-    
+    else {
+      while (money > 0) {
+        let num = rollDice();
+        if (num == 7) {
+          money += 4;
+          rollCount += 1;
+            if (money >= highest) {
+              rollAmountWon = rollCount;
+              highest = money;
+            }
+        }else {
+            money -= 1;
+            rollCount += 1;
+          }
+        }
+    }
+   
+  
     if (money < 1){
         alert("You have lost all your money. The house always wins. Muhuhuhahahaha!!!!")
     }
