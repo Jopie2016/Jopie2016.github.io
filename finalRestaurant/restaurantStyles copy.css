@@ -37,7 +37,7 @@ footer {
 
 input[type=submit]:hover {
     background-color: #A55E00;
-    color: #black;
+    color: black;
 }
 
 table, th, td {

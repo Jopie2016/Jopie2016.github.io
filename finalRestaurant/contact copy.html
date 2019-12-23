@@ -57,12 +57,17 @@
                 </nav>
 
             <section id="contactSection">
-                <div id="error">
-                <form id="myForm" action="contact copy.html" method="POST">
-                    <label for="name">Name:</label><br />
-                    <input type="text" id="name" name="Name" required> <br/>
-                    <label for="email">Email:</label><br />
-                    <input type="email" id="email" name="Email"> <br />
+                <div id="error"></div>
+                <form id="myForm" action="/" method="GET">
+                    <div>
+                        <label for="name">Name:</label><br />
+                        <input type="text" id="name" name="Name"> <br/>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label><br />
+                        <input type="email" id="email" name="Email"> <br />
+                    </div> 
+                   
                     <label for="phone">Phone Number:</label><br />
                     <input type="text" id="phone" name="phone"> <br />
                     <label for="contact">Reason for Inquiry:</label><br />
@@ -94,9 +99,9 @@
                         <input type="checkbox" id="F" name="F" value="F">
                         <label for="F">F</label><br />   
                     </fieldset>
-                    <input type="submit"  onsubmit="submitForm()"/>
+                    <button type="submit">Submit</button>
                 </form>
-                </div>
+                
 
                 
             </section>
